@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+"remote_01\startup_stm32f407xx.o"
+"remote_01\remote.o"
+"remote_01\main.o"
+"remote_01\stm32f4xx_it.o"
+"remote_01\stm32f4xx_hal_msp.o"
+"remote_01\stm32f4xx_hal_tim.o"
+"remote_01\stm32f4xx_hal_tim_ex.o"
+"remote_01\stm32f4xx_hal_rcc.o"
+"remote_01\stm32f4xx_hal_rcc_ex.o"
+"remote_01\stm32f4xx_hal_flash.o"
+"remote_01\stm32f4xx_hal_flash_ex.o"
+"remote_01\stm32f4xx_hal_flash_ramfunc.o"
+"remote_01\stm32f4xx_hal_gpio.o"
+"remote_01\stm32f4xx_hal_dma_ex.o"
+"remote_01\stm32f4xx_hal_dma.o"
+"remote_01\stm32f4xx_hal_pwr.o"
+"remote_01\stm32f4xx_hal_pwr_ex.o"
+"remote_01\stm32f4xx_hal_cortex.o"
+"remote_01\stm32f4xx_hal.o"
+"remote_01\stm32f4xx_hal_exti.o"
+"remote_01\stm32f4xx_hal_uart.o"
+"remote_01\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Remote_01\Remote_01.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Remote_01.map" -o Remote_01\Remote_01.axf
