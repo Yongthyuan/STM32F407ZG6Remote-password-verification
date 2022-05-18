@@ -1,1 +1,7 @@
-# STM32F407ZG6Remote-password-verification-
+# STM32F407ZG6Remote-password-verification
+本文件为专用于STM32F407ZG6单片机的红外检测
+实现功能：
+1.可修改密码（初始密码为1234）
+2.可以验证密码
+3.仅限串口通信，可在串口上显示密码
+4.密码验证后的各项操作可直接在主函数中进行添加
